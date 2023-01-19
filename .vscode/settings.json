@@ -1,0 +1,128 @@
+{
+  "editor.formatOnSave": true,
+  "vetur.format.defaultFormatter.html": "prettier",
+  "vetur.format.defaultFormatter.js": "prettier",
+  "vetur.format.defaultFormatter.scss": "prettier",
+  "vetur.format.defaultFormatterOptions": {
+    "prettier": {
+      "useEditorConfig": false,
+      "semi": true,
+      "singleQuote": true,
+      "tabWidth": 2,
+      "useTabs": false
+    }
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "search.followSymlinks": false,
+  "git.autorefresh": true,
+  "editor.tabSize": 2,
+  "editor.lineHeight": 20,
+  "vetur.format.options.tabSize": 2,
+  "editor.renderLineHighlight": "none",
+  "editor.renderWhitespace": "all",
+  "editor.fontFamily": "Consolas",
+  "editor.fontSize": 16,
+  "editor.fontWeight": "bold",
+  "editor.cursorBlinking": "smooth",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "top",
+  "editor.wordWrapColumn": 2000,
+  "editor.wordWrap": "bounded",
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "terminal.integrated.shell.windows": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "javascript.suggestionActions.enabled": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.implicitProjectConfig.experimentalDecorators": true,
+  "typescript.validate.enable": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.colorCustomizations": {
+    "editorIndentGuide.activeBackground": "#ff0000"
+  },
+  "breadcrumbs.enabled": true,
+  "open-in-browser.default": "chrome",
+  "search.exclude": {
+    "**/dist": true,
+    "**/build": true,
+    "**/elehukouben": true,
+    "**/.git": true,
+    "**/.gitignore": true,
+    "**/.svn": true,
+    "**/.DS_Store": true,
+    "**/.idea": true,
+    "**/.vscode": false,
+    "**/yarn.lock": true,
+    "**/tmp": true
+  },
+  "files.associations": {
+    "*.wxss": "css",
+    "*.cjson": "jsonc",
+    "*.wxs": "javascript",
+    "*.vue": "vue"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.syntaxProfiles": {
+    "vue-html": "html",
+    "vue": "html",
+    "javascript": "javascriptreact",
+    "xml": {
+      "attr_quotes": "single"
+    }
+  },
+  "emmet.includeLanguages": {
+    "jsx-sublime-babel-tags": "javascriptreact",
+    "wxml": "html"
+  },
+  "emmet.showSuggestionsAsSnippets": true,
+  "git.autofetch": false,
+  "workbench.colorTheme": "Dracula Soft",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  "eslint.format.enable": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.options": {
+    "extensions": [".js", ".vue"]
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "eslint.codeAction.showDocumentation": {
+    "enable": true,
+    "source.fixAll.eslint": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "css.validate": true,
+  "less.validate": true,
+  "scss.validate": true,
+  "eslint.validate": ["javascript", "javascriptreact", "html", "vue"],
+  "eslint.codeActionsOnSave.mode": "problems",
+  "path-intellisense.extensionOnImport": false,
+  "path-intellisense.autoSlashAfterDirectory": false,
+  "path-intellisense.mappings": {
+    "@": "${workspaceRoot}/src"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "gitlens.advanced.messages": {
+    "suppressGitDisabledWarning": true
+  },
+  "workbench.editor.enablePreview": false,
+  "code-runner.runInTerminal": true,
+  "window.zoomLevel": 0,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "gitlens.gitCommands.skipConfirmations": ["fetch:command", "switch:command"],
+  "diffEditor.ignoreTrimWhitespace": false,
+  "javascript.format.semicolons": "insert"
+}
